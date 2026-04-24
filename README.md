@@ -1,6 +1,6 @@
 # paynow-qr-generator
 
-Credits: xkjyeah
+Credits: xkjyeah for the initial project
 
 Generates static PayNow QR codes for use in garage sales, hawker stalls, pop-ups, and simple counter payments.
 
