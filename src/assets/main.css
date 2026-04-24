@@ -1,7 +1,48 @@
-* {
-  font-family: sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap");
+
+:root {
+  color-scheme: light;
+  font-family: "Manrope", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #25161d;
+  background:
+    radial-gradient(circle at top, rgba(255, 223, 196, 0.5), transparent 28%),
+    linear-gradient(180deg, #f9efe4 0%, #f4e7d8 42%, #efe3d7 100%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --muted-ink: #715563;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  min-height: 100%;
 }
 
 body {
-  font-size: 16px;
+  margin: 0;
+}
+
+body.image-mode-body {
+  background: #ffffff;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  color: inherit;
 }
